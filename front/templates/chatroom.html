@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Chatroom</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="main.js"></script>
+</head>
+
+<body style="background-color: #ffffff; justify-content: space-around;">
+    <header>
+        <nav style="background-color: #1ab7bc; color: #ffffff; padding-left:10px; padding-right:10px;" class="text-center">
+            <a href="" style="float:left; margin-top: 10px; text-decoration:none;"><img src="../static/icone-users.png"
+                    style="height:25px;" alt="icone utilisateurs" /></a>
+            <a href="" style="float:left; margin-top: 10px; margin-left: 15px; text-decoration:none;"><img
+                    src="../static/icone-setting.png" style="height:25px;" alt="icone paramètres" /></a>
+            <span style="font-size:2em;">CHATROOM</span>
+            <a href="" style="float:right; margin-top: 10px; text-decoration:none;" class="logout"><img src="../static/icone-porte.png"
+                    style="height:25px;" alt="icone déconnexion" /></a>
+            <div style="clear: both;"></div>
+        </nav>
+    </header>
+    <div id="chatbox" class="container" style="background-color: aliceblue; border: solid 1px #1ab7bc; margin-top:1em; height: 75vh; overflow: scroll;">
+        <!--On affiche les 10 derniers messages ici-->
+    </div>
+    <form method="POST" id="inputUser" class="container input-group mb-3" style="margin-top:1em; padding: 0;">
+            <input name="message" type="text" id="message" class="form-control" required placeholder="Mon message..." style="background-color: aliceblue;"/>
+            <div class="input-group-append">
+                <button class="btn btn-info" id="envoimsg" type="submit">Envoyer</button>
+            </div>
+    </form>
+</body>
+
+</html>

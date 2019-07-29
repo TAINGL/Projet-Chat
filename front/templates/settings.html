@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Paramètres</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="main.js"></script>
+</head>
+
+<body style="background-color: #ffffff; justify-content: space-around;">
+    <header>
+        <nav style="background-color: #1ab7bc; color: #ffffff; padding-left:10px; padding-right:10px;" class="text-center">
+                <a href="chatroom.html" style="float:left; margin-top: 10px; text-decoration:none;"><img src="../static/icone-chat.png" style="height:25px;" alt="icone chatroom"/></a>
+                <a href="utilisateur.html" style="float:left; margin-top: 10px; margin-left: 15px; text-decoration:none;"><img src="../static/icone-users.png" style="height:25px;" alt="icone utilisateurs"/></a>
+                <span style="font-size:2em;">PARAMÈTRES</span>
+                <a href="index.html" style="float:right; margin-top: 10px; text-decoration:none;"><img src="../static/icone-porte.png" style="height:25px;" alt="icone déconnexion"/></a>
+                <div style="clear: both;"></div>
+        </nav>
+    </header>
+    <div class="container text-center" style="background-color: #1ab7bc; color: #ffffff; margin-top: 1em;">
+        <div class="row">
+            <div class="col-sm">PSEUDO ACTUEL</div>
+            <div class="col-sm">MDP: ******</div>
+            <div class="col-sm">MAIL@MAIL.MAIL</div>
+        </div>
+    </div>
+    <form method="POST">
+        <div class="row" style="margin:0;">
+            <div class="col-sm-4 offset-sm-1">
+                <h3 class="text-center" style="margin-top:10vh; font-size:1.5em;">ÉDITER MON PROFILE</h3>
+                <div class="form-group">
+                    <label for="pseudo">Nouveau Pseudo :</label>
+                    <input type="text" class="form-control block" id="pseudo" name="pseudo" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Nouvel Email :</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mdp">Nouveau Mot de Passe :</label>
+                    <input type="password" class="form-control" id="mdp" name="password" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-info btn-block" style="margin-top:2em;">Valider</button>
+                </div>
+            </div>
+            <div class="col-sm-4 offset-sm-2">
+                <h3 class="text-center" style="margin-top:10vh; font-size:1.5em;">SUPPRIMER MON PROFILE</h3>
+                <p class="text-center" style="font-style:italic; font-size:0.9em; margin-bottom:10vh;">Êtes-vous sûr(e) de vouloir nous quitter?</p>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-danger btn-block" style="margin-top:2em;">Supprimer</button>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin:0; clear:both;">
+            <div class="col-sm">
+            </div>
+        </div>
+
+    </form>
+</body>
+
+</html>

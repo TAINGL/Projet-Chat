@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>S'inscrire</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="main.js"></script>
+</head>
+
+<body style="background-color: #1ab7bc; padding: 2em; justify-content: space-around;">
+    <div class="container-fluid" style="background-color: #ffffff; padding: 1em;">
+        <div class="col-sm-7" style="margin:1.1em; float: right;">
+            <img src="../static/register.jpg" class="img-fluid" alt="une table de café ensoleillée" />
+        </div>
+        <div class="col-sm">
+            <p class="h3 text-center" style="margin-top:2em;">S'INSCRIRE</p>
+        </div>
+        <form method="POST" style="padding:1em;" action="/sinscrire">
+            <div class="row" style="margin:0;">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="pseudo">Pseudo :</label>
+                        <input type="text" class="form-control block" id="pseudo" name="pseudo" required>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin:0;">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="email">Email :</label>
+                        <input type="email" class="form-control block" id="email" name="email" required>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin:0;">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="mdp">Mot de Passe :</label>
+                        <input type="password" class="form-control" id="mdp" name="password" required>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin:0;">
+                <div class="col-sm">
+                    <div class="form-group" style="margin-top:2em;">
+                        <button type="submit" class="btn btn-info btn-block">Valider</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin:0; clear:both;">
+                <div class="col-sm">
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
