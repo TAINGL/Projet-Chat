@@ -29,8 +29,8 @@ Le projet de Chat en ligne permet :
 
 ## Livrables attendus
 
-*Modélisation de l'application web de Chat en ligne
-*Modélisation de la Base de données de la plateforme.
-*conception des principaux écrans.
-*Codes source implémentés (livrés sur gitlab,github).
-*Planning + répartition du travail (Qui fait Quoi pour Quand!)
+- Modélisation de l'application web de Chat en ligne
+- Modélisation de la Base de données de la plateforme.
+- Conception des principaux écrans.
+- Codes source implémentés (livrés sur gitlab,github).
+- Planning + répartition du travail (Qui fait Quoi pour Quand!)
