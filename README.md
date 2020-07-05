@@ -10,11 +10,11 @@ Pour la première itération de ce projet, il n'est pas demandé d'induire des r
 ## Cahier des charges
 
 Le projet de Chat en ligne permet :
-● d'identifier et de gérer des profils utilisateurs (création, modification, suppression) ;
-● d'échanger des messages de Chat entre utilisateurs ;
-● de conserver les échanges de messages;
-● d'afficher les historiques d'échanges ;
-● afficher la liste des utilisateurs ;
+- d'identifier et de gérer des profils utilisateurs (création, modification, suppression) ;
+- d'échanger des messages de Chat entre utilisateurs ;
+- de conserver les échanges de messages;
+- d'afficher les historiques d'échanges ;
+- afficher la liste des utilisateurs ;
 
 *un front (bootstrap) relié à un serveur web (node)
 *une API (node || flask)
